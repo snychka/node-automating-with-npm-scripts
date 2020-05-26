@@ -12,6 +12,8 @@
     "test:module3": "mocha test/module3.test.js",
     "test:module4": "mocha test/module4.test.js",
     "build": "babel src -d build",
+    "build-clean": "rm -rf build",
+    "postbuild-clean": "npm run build"
   },
   "repository": {
     "type": "git",
